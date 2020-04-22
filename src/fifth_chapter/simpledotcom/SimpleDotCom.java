@@ -2,7 +2,7 @@ package fifth_chapter.simpledotcom;
 
 public class SimpleDotCom {
     private int [] locationCells;
-    private int nuberOfHits; // 0 is default value for numeric instance variable
+    private int numberOfHits; // 0 is default value for numeric instance variable
 
     public void setLocationCells(int[] locationCells) {
         this.locationCells = locationCells;
@@ -16,12 +16,12 @@ public class SimpleDotCom {
         for(int cell : locationCells){
             if(guess ==  cell) {
                 result = "hit";
-                nuberOfHits += 1;
+                numberOfHits += 1;
                 break;
             }
         }
 
-        if(nuberOfHits == locationCells.length){
+        if(numberOfHits == locationCells.length){
             result = "kill";
         }
 
