@@ -1,28 +1,29 @@
 package fifth_chapter.simpledotcom;
 
-public class SimpleDotCom {
-    private int [] locationCells;
-    private int numberOfHits; // 0 is default value for numeric instance variable
+import java.util.ArrayList;
 
-    public void setLocationCells(int[] locationCells) {
+public class SimpleDotCom {
+    private ArrayList<String> locationCells;
+    //private int numberOfHits; // 0 is default value for numeric instance variable
+
+    public void setLocationCells(ArrayList<String> locationCells) {
         this.locationCells = locationCells;
     }
 
     public String checkYourself(String userGuss){
-        int guess = Integer.parseInt(userGuss);
 
         String result = "miss";
 
-        for(int cell : locationCells){
-            if(guess ==  cell) {
-                result = "hit";
-                numberOfHits += 1;
-                break;
-            }
-        }
+        int index = locationCells.indexOf(userGuss); // return -1 if not found
 
-        if(numberOfHits == locationCells.length){
-            result = "kill";
+        if(index >= 0 ){
+            locationCells.remove(index);
+
+            if (locationCells.isEmpty()) {
+                result = "kill";
+            }else{
+                result = "hit";
+            }
         }
 
         System.out.println(result);

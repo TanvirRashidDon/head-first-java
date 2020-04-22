@@ -1,5 +1,7 @@
 package fifth_chapter.simpledotcom;
 
+import java.util.ArrayList;
+
 public class SimpleDotComTestDrive {
     public void doSomething(){
         int numOfGuess = 0;
@@ -7,7 +9,10 @@ public class SimpleDotComTestDrive {
         GameHelper helper = new GameHelper();
 
         int randomNumber = (int) (Math.random() * 5);
-        int [] locations = {randomNumber, randomNumber + 1, randomNumber + 2};
+        ArrayList<String> locations = new ArrayList<String>();
+        locations.add(Integer.toString(randomNumber));
+        locations.add(Integer.toString(randomNumber + 1));
+        locations.add(Integer.toString(randomNumber + 2));
 
         simpleDotCom.setLocationCells(locations);
 
