@@ -1,4 +1,4 @@
-import tenth_chapter.fromatingdeconstructed.StaticMethodTestDrive;
+import tenth_chapter.staticsomething.StaticMethodTestDrive;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package tenth_chapter.fromatingdeconstructed;
+package tenth_chapter.staticsomething;
 
 public class StaticMethodTestDrive {
     private int nonStatic;
@@ -15,6 +15,9 @@ public class StaticMethodTestDrive {
 
         ObjectCounter obj2 = new ObjectCounter();
         System.out.println("Total Object : " + ObjectCounter.getObjectCount());
+
+        System.out.println("\n// A public static variable is like a constant in c/c++.\nExample : ObjectCounter.PI_CONSTANT = "
+                + ObjectCounter.PI_CONSTANT);
     }
 
 }
