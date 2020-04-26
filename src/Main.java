@@ -1,9 +1,9 @@
-import tenth_chapter.fromatingdeconstructed.DateFormattingTestDrive;
+import tenth_chapter.fromatingdeconstructed.CalenderTestDrive;
 
 public class Main {
 
     public static void main(String[] args) {
-        DateFormattingTestDrive object = new DateFormattingTestDrive();
+        CalenderTestDrive object = new CalenderTestDrive();
         object.doSomething();
     }
 }
