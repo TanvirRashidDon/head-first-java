@@ -1,9 +1,9 @@
-import tenth_chapter.fromatingdeconstructed.CalenderTestDrive;
+import tenth_chapter.fromatingdeconstructed.StaticMethodTestDrive;
 
 public class Main {
 
     public static void main(String[] args) {
-        CalenderTestDrive object = new CalenderTestDrive();
+        StaticMethodTestDrive object = new StaticMethodTestDrive();
         object.doSomething();
     }
 }
