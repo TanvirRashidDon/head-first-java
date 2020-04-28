@@ -1,9 +1,9 @@
-import eleventh_chapter.beatbox.BeatBoxTestDrive;
+import sixteenth_chapter.collections.JukBoxTestDrive;
 
 public class Main {
 
     public static void main(String[] args) {
-        BeatBoxTestDrive object = new BeatBoxTestDrive();
+        JukBoxTestDrive object = new JukBoxTestDrive();
         object.doSomething();
     }
 }
