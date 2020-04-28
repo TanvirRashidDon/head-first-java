@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class JukBoxArrayList {
 
-    ArrayList<String> songList = new ArrayList<String>();
+    ArrayList<Song> songList = new ArrayList<Song>();
 
     public void go(){
         getSong();
@@ -33,6 +33,8 @@ public class JukBoxArrayList {
 
     void addSong(String line){
         String[] token = line.split("/");
-        songList.add(token[0]);
+
+        Song song = new Song(token[0], token[1], token[2], token[3]);
+        songList.add(song);
     }
 }
