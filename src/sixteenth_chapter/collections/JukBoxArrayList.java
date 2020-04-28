@@ -2,6 +2,7 @@ package sixteenth_chapter.collections;
 
 import java.util.ArrayList;
 import java.io.*;
+import java.util.Collections;
 
 public class JukBoxArrayList {
 
@@ -9,7 +10,10 @@ public class JukBoxArrayList {
 
     public void go(){
         getSong();
-        System.out.println(songList);
+        System.out.println("Before sort :\n" + songList);
+
+        Collections.sort(songList);
+        System.out.println("After sort :\n" + songList);
     }
 
     void getSong(){
