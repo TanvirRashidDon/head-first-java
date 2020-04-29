@@ -13,7 +13,10 @@ public class JukBoxArrayList {
         System.out.println("Before sort :\n" + songList);
 
         Collections.sort(songList);
-        System.out.println("After sort :\n" + songList);
+        System.out.println("After sort Based on Title:\n" + songList);
+
+        Collections.sort(songList, new ArtistComparator());
+        System.out.println("After sort Based on Artist:\n" + songList);
     }
 
     void getSong(){
