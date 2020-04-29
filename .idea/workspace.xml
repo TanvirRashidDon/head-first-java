@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7a54a3-f8d2-44a1-ad7e-b2e501f2aeca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sixteenth_chapter/collections/ArtistComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SongList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SongList.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/head first java/sixteenth_chapter/collections/JukBoxTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/head first java/sixteenth_chapter/collections/JukBoxTestDrive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTestDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sixteenth_chapter/collections/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sixteenth_chapter/collections/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTreeSet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -34,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTestDrive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -56,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/ArtistComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#170#171#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
@@ -69,11 +65,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTreeSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#215#221#0" expanded="true" />
+                <element signature="e#278#284#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SongList.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -146,12 +143,12 @@
         <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/Jukboxarraylist.java" />
         <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukboxArrayList.java" />
         <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/SongList.txt" />
-        <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTreeSet.java" />
         <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/Song.java" />
-        <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTestDrive.java" />
         <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/ArtistComparator.java" />
         <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxArrayList.java" />
         <option value="$PROJECT_DIR$/SongList.txt" />
+        <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTreeSet.java" />
+        <option value="$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTestDrive.java" />
       </list>
     </option>
   </component>
@@ -491,53 +488,6 @@
     <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/SongList.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#215#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/ArtistComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#193#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/Song.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -555,6 +505,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/ArtistComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#221#0" expanded="true" />
+            <element signature="e#278#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sixteenth_chapter/collections/JukBoxTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -7,10 +7,12 @@ import java.util.TreeSet;
 
 public class JukBoxTreeSet {
     TreeSet<Song> songList = new TreeSet<Song>();
+    TreeSet<Song> songListBasedOnArtist = new TreeSet<Song>(new ArtistComparator());
 
     public void go(){
         getSong();
-        System.out.println(songList);
+        System.out.println("Based on Title :\n" + songList);
+        System.out.println("Based on Title :\n" + songListBasedOnArtist);
     }
 
     void getSong(){
@@ -33,5 +35,6 @@ public class JukBoxTreeSet {
 
         Song s = new Song(token[0], token[1], token[2], token[3]);
         songList.add(s);
+        songListBasedOnArtist.add(s);
     }
 }
