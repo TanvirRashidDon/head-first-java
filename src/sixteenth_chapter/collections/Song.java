@@ -15,7 +15,7 @@ public class Song implements Comparable<Song>{
         bpm = b;
     }
 
-    public String getTitle() { return title; }
+    public String getTitle() { return title; } 
 
     public String getArtist() { return artist; }
 

@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.util.TreeSet;
 
 public class JukBoxTreeSet {
-    TreeSet<String> songList = new TreeSet<String>();
+    TreeSet<Song> songList = new TreeSet<Song>();
 
     public void go(){
         getSong();
@@ -30,6 +30,8 @@ public class JukBoxTreeSet {
 
     void addSong(String line){
         String[] token = line.split("/");
-        songList.add(token[0]);
+
+        Song s = new Song(token[0], token[1], token[2], token[3]);
+        songList.add(s);
     }
 }
