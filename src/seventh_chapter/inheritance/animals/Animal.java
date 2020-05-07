@@ -1,6 +1,6 @@
 package seventh_chapter.inheritance.animals;
 
-public class Animal {
+public abstract class Animal {
     private String genre;
     private String picture;
 
