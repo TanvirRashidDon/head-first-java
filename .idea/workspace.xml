@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7a54a3-f8d2-44a1-ad7e-b2e501f2aeca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/feilne/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/canine/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/canine/Dog.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/canine/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="294">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#141#142#0" expanded="true" />
@@ -96,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/feilne/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="e#88#89#0" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
@@ -178,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/canine/Canine.java" />
         <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/canine/Wolf.java" />
         <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/Pet.java" />
-        <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/canine/Dog.java" />
         <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/feilne/Cat.java" />
+        <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/canine/Dog.java" />
         <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java" />
       </list>
     </option>
@@ -305,14 +301,14 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -674,25 +670,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/canine/Dog.java">
+    <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/Pet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/feilne/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="e#88#89#0" expanded="true" />
             <element signature="e#111#112#0" expanded="true" />
@@ -704,17 +692,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/Pet.java">
+    <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/canine/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="294">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -13,7 +13,6 @@ public class AnimalTestDrive {
     public void doSomething(){
         doSameJob();
         petBeheviour();
-        //callSubclassBehaviourBySuperclass();
     }
 
     private void petBeheviour(){
@@ -33,14 +32,14 @@ public class AnimalTestDrive {
         animals[5] = new Cat();
 
         for(Animal animal : animals){
-            animal.makeNoise();
+            callSubclassBehaviourBySuperclass(animal);
         }
     }
-    private void callSubclassBehaviourBySuperclass(){
-        Animal animal = new Lion();
+    private void callSubclassBehaviourBySuperclass(Animal animal){
+        //Animal animal = new Lion();
         animal.makeNoise();
-        animal.eat();
-        animal.sleep();
-        animal.roam();
+        //animal.eat();
+        //animal.sleep();
+        //animal.roam();
     }
 }
