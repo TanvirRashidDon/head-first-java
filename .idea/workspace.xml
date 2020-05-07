@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7a54a3-f8d2-44a1-ad7e-b2e501f2aeca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/head first java/seventh_chapter/inheritance/animals/Hippopotamus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/Hippopotamus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/head first java/seventh_chapter/inheritance/AnimalTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/head first java/seventh_chapter/inheritance/AnimalTestDrive.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -29,11 +25,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +131,8 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/Animal.java" />
         <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/Hippopotemus.java" />
-        <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java" />
         <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/Hippopotamus.java" />
+        <option value="$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java" />
       </list>
     </option>
   </component>
@@ -554,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/animals/Hippopotamus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -578,7 +571,18 @@
     <entry file="file://$PROJECT_DIR$/src/seventh_chapter/inheritance/AnimalTestDrive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
