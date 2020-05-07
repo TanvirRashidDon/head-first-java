@@ -1,9 +1,9 @@
-import sixteenth_chapter.collections.JukBoxTestDrive;
+import seventh_chapter.inheritance.AnimalTestDrive;
 
 public class Main {
 
     public static void main(String[] args) {
-        JukBoxTestDrive object = new JukBoxTestDrive();
+        AnimalTestDrive object = new AnimalTestDrive();
         object.doSomething();
     }
 }
