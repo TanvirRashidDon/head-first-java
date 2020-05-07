@@ -1,10 +1,10 @@
-package seventh_chapter.inheritance.animals.canine;
+package seventh_chapter.inheritance.animals.feilne;
 
 import seventh_chapter.inheritance.animals.Pet;
 
-public class Dog extends Canine implements Pet {
-    public Dog(){
-        super("Dog");
+public class Cat extends Feilne implements Pet {
+    public Cat(){
+        super("Cat");
     }
 
     @Override
@@ -14,6 +14,6 @@ public class Dog extends Canine implements Pet {
 
     @Override
     public void play() {
-        System.out.println("Lets Play");
+        System.out.println("Lets Play ");
     }
 }
