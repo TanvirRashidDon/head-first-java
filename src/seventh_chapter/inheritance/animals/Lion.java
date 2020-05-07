@@ -2,21 +2,21 @@ package seventh_chapter.inheritance.animals;
 
 import seventh_chapter.inheritance.Animal;
 
-public class Hippopotamus extends Animal {
+public class Lion extends Animal {
 
-    public Hippopotamus(){
-        super("Hippopotamus");
+    public Lion(){
+        super("Lion");
     }
 
     @Override
     public void eat(){
         super.eat();
-        System.out.println("Plant");
+        System.out.println("Meat");
     }
 
     @Override
     public void makeNoise(){
         super.makeNoise();
-        System.out.println("Hipps..");
+        System.out.println("Roar..");
     }
 }
