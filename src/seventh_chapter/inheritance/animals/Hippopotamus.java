@@ -1,7 +1,5 @@
 package seventh_chapter.inheritance.animals;
 
-import seventh_chapter.inheritance.Animal;
-
 public class Hippopotamus extends Animal {
 
     public Hippopotamus(){

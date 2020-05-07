@@ -1,7 +1,7 @@
 package seventh_chapter.inheritance;
 
-import seventh_chapter.inheritance.animals.Hippopotamus;
-import seventh_chapter.inheritance.animals.Lion;
+import seventh_chapter.inheritance.animals.Animal;
+import seventh_chapter.inheritance.animals.feilne.Lion;
 
 public class AnimalTestDrive {
 

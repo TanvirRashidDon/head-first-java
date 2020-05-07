@@ -1,4 +1,4 @@
-package seventh_chapter.inheritance;
+package seventh_chapter.inheritance.animals;
 
 public class Animal {
     private String genre;
